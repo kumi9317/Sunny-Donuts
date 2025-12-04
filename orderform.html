@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sunny Donuts</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/sunny.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <ul class="nav-menu1">
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#lineup">LINE UP</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a class="order-btn" href="orderform.html"><span class="order-span">Order Form</span></a></li>
+            </ul>
+        </nav>
+
+        <div id="toggle" class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <nav class="hamburger-nav">
+            <ul class="nav-menu2">
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#lineup">LINE UP</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a class="order-btn" href="orderform.html"><span class="order-span">Order Form</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="back">
+            <div class="wrapper">
+                <h2 class="sec-title-orderform">Order Form</h2>
+                <p >お気軽にお問い合わせください。</p>
+                <div class="orderform-container">
+
+                    <form class="order-form">
+
+                        <div class="form-row">
+                            <label>お名前</label>
+                            <input type="text">
+                        </div>
+
+                        <div class="form-row">
+                            <label>電話番号</label>
+                            <input type="tel">
+                        </div>
+
+                        <div class="form-row">
+                            <label>メールアドレス</label>
+                            <input type="email">
+                        </div>
+
+                        <!-- 注文商品・個数 -->
+                        <div class="form-row product-row">
+                            <label>注文商品・個数</label>
+
+                            <div class="product-set-container">
+
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="0">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>
+                                
+                                <div class="product-set">
+                                    <select>
+                                        <option value="">商品を選択</option>
+                                        <option value="oldfashion">オールドファッション</option>
+                                        <option value="strawberry">ストロベリー</option>
+                                        <option value="nuts">ナッツ</option>
+                                        <option value="choco-nuts">チョコナッツ</option>
+                                        <option value="cinnamon">シナモン</option>
+                                        <option value="matcha">抹茶</option>
+                                        <option value="caramel">キャラメル</option>
+                                        <option value="choco-sprinkle">チョコスプレー</option>
+                                    </select>
+                                    <input type="number" min="1">
+                                    <span class="unit">個</span>
+                                </div>        
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <label>受け取りたい日付</label>
+                            <input type="date" placeholder="例：2025年1月10日 15:00">
+                        </div>
+
+                        <div class="form-row">
+                            <label>受け取りたい時間</label>
+                            <input type="time">
+                        </div>
+
+                        <div class="form-row">
+                            <label>その他・お問い合わせ</label>
+                            <textarea rows="6"></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">送　信</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
