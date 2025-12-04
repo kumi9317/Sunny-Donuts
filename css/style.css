@@ -503,32 +503,26 @@ LINE UP
 
 .pick-img1,
 .pick-img2 {
-    width: 50%;/**/
+    width: 50%;
     max-width: 300px;
-    height: auto;/**/
+    height: auto;
     aspect-ratio: 3 / 4; /* 必要なら縦横比を固定 */
     border: 4px solid #fff;
     background-size: cover;
     position: relative;
-    background-position: center;/**/
-    /* display: inline-block; */
+    background-position: center;
     z-index: 20;
     opacity: 0;
 }
 
 .pick-img1 {
     background-image: url(../img/pickup-donut1.jpg);
-    /* transform: rotate(-5deg); */
     transform: translateY(20px) rotate(-5deg);
 }
 
 .pick-img2 {
     background-image: url(../img/pickup-donut2.jpg);
-    /* transform: rotate(5deg); */
     transform: translateY(20px) rotate(5deg);
-    /* position: absolute; */
-    /* top: 0; */
-    /* right: 0; */
 }
 
 /*--リボン本体--*/
@@ -596,7 +590,6 @@ LINE UP
     content: "";
     width: 100%;
     height: 30px;
-    /* background: #FD6C6C; */
     background-image: url("../img/Line.png");
     background-size: contain;
     position: absolute;
@@ -608,36 +601,26 @@ LINE UP
 .pick-text1 p,
 .pick-text2 p {
     font-size: 1.25rem;
-    /* border: 1px solid red; */
     padding-top: 50px;
 }
 
 .pick-text1,
 .pick-text2 {
-    padding: 40px 60px;/**/
-    margin-top: 100px;/**/
-    /* width: 650px; */
-    height: auto;/**/
-    position: relative;/**/
-    /* top: 80px; */
+    padding: 40px 60px;
+    margin-top: 100px;
+    height: auto;
+    position: relative;
+    
     z-index: 10;
 
     opacity: 0;
-    /* animation: FadeIn 1s ease forwards; */
-
 }
 
 .pick-text1 {
-    /* left: 200px; */
-    /* padding-inline: 60px; */
-    /* border: 1px solid red; */
     transform: translateX(-50px); /*←画像に少しかぶせる*/
 }
 
 .pick-text2 {
-    /* right: 250px; */
-    /* padding-left: 60px; */
-    /* padding-right: 100px; */
     transform: translateX(50px); /*←画像側に少し寄せる*/
 }
 
@@ -645,11 +628,7 @@ LINE UP
 .pick-text2::after {
     content: "";
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
     inset: 0;
-    /* width: 100%; */
-    /* height: 100%; */
     background: #fff;
     z-index: -1;
 }
@@ -666,7 +645,7 @@ LINE UP
 
     opacity: 0;
     transform: scale(0.9);
-    /* animation: greenFadeIn 1s ease forwards; */
+   
     animation-delay: 0.4s;  /* ←画像より遅れて出す */
 }
 
@@ -714,13 +693,11 @@ LINE UP
 .order-img {
     width: 160px;
     height: 160px;
-    /* margin-right: 40px; */
     border-radius: 50%;
     background: #fff;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
     z-index: 20;
-    /* border: 1px solid blue; */
 }
 
 .price-img img,
@@ -736,7 +713,6 @@ LINE UP
 
 .price-text {
     margin-left: 80px;
-    /* border: 1px solid red; */
 }
 
 .price-text p {
@@ -757,11 +733,8 @@ LINE UP
     background-repeat: no-repeat;
     background-position: center;
 
-    /* z-index: -1; */
-
     opacity: 0;
     transform: scale(0.7);
-    /* animation: sunFadeIn 1.2s ease-out 0.3s forwards; */
 }
 
 .price-text p::after {
@@ -784,16 +757,13 @@ LINE UP
 
 .lineup-container {
     display: grid;
-    /* grid-template-columns: repeat(3,1fr); */
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 100px;
     margin-bottom: 100px;
-    /* border: 1px solid red; */
 }
 
 .lineup-item {
     text-align: center;
-    /* border: 1px solid red; */
 }
 
 .lineup-img {
@@ -862,7 +832,6 @@ order
 .order-container {
     background: rgba(255, 255, 255, 0.7);
     width: 55%;
-    /* height: 340px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -871,7 +840,6 @@ order
 
 .order-text p {
     margin-bottom: 25px;
-    /* border: 1px solid red; */
 }
 
 .tell,
@@ -882,7 +850,6 @@ order
     font-size: 1.25rem;
     padding-left: 48px;
     position: relative;
-    /* border: 1px solid red; */
 }
 
 .tell-span,
@@ -901,7 +868,6 @@ order
     top: -5px;
     left: 0;
     pointer-events: none;
-    /* border: 1px solid red; */
 }
 
  .tell::after {
@@ -918,15 +884,11 @@ order
 .order-btn {
     width: 180px;
     height: 50px;
-    /* color: #fff; */
     border: 2px solid #70bd9c;
-    /* background-color: #70bd9c; */
     display: inline-flex;
     align-items: center;
-    /* justify-content: center; */
     position: relative;
     z-index: 10;
-
 }
 
 .order-btn::before {
@@ -951,7 +913,6 @@ order
     top: 0;
     left: 0;
     pointer-events: none;
-
 }
 
 /*--------------------
@@ -998,7 +959,6 @@ NEWS
 .news-item1,
 .news-item2,
 .news-item3 {
-    /* border: 1px solid red; */
     display: block;
     width: 50%;
     padding: 20px;
@@ -1046,7 +1006,7 @@ NEWS
 
     opacity: 0;
     transform: scale(0.9);
-    /* animation: greenFadeIn 1s ease forwards; */
+    
     animation-delay: 0.4s;  /* ←画像より遅れて出す */
 }
 
@@ -1088,7 +1048,6 @@ NEWS
 
 .news-container {
     height: 150px;
-    /* border: 1px solid red; */
 }
 
 /*--------------------
@@ -1123,7 +1082,7 @@ SHOP
 
     opacity: 0;
     transform: scale(0.9);
-    /* animation: greenFadeIn 1s ease forwards; */
+    
     animation-delay: 0.4s;  /* ←画像より遅れて出す */
 }
 
@@ -1131,7 +1090,6 @@ SHOP
     max-width: 440px;
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
 }
 
 .shop-list dt {
@@ -1170,7 +1128,6 @@ SHOP
     height: 250px;
     position: relative;
     overflow: hidden;
-    /* border: 1px solid red; */
 }
 
 .map iframe {
@@ -1212,7 +1169,6 @@ footer
     margin: auto;
     position: relative;
     z-index: 30;
-    /* border: 1px solid red; */
 }
 
 .footer-logo img {
@@ -1249,7 +1205,6 @@ footer
     top: 50%;
     left: 50%;
     z-index: 10;
-    /* border: 1px solid red; */
 }
 
 /*--------------------
@@ -1281,15 +1236,12 @@ orderform.html
     font-size: 2.5rem;
     text-align: center;
     font-family: 'Poor Story', sans-serif;
-    /* border: 1px solid red; */
-
 }
 
 .back p {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 40px;
-    /* border: 1px solid red; */
 }
 
 /*--order-form--*/
@@ -1308,7 +1260,6 @@ orderform.html
   max-width: 900px;
   margin: 0 auto;
   display: block;
-  /* border: 1px solid red; */
 }
 
 .form-row {
@@ -1316,14 +1267,12 @@ orderform.html
   margin-bottom: 25px;
   display: flex;
   align-items: flex-start;
-  /* border: 1px solid red; */
 }
 
 .form-row label {
   width: 25%;
   font-size: 1rem;
   padding-top: 10px;
-  /* border: 1px solid; */
 }
 
 .form-row input,
@@ -1345,14 +1294,12 @@ textarea {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-    /* border: 1px solid #000; */
 }
 
 .product-set {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
-  /* border: 1px solid blue; */
   width: 50%;
 }
 
@@ -1404,23 +1351,16 @@ textarea {
   opacity: 0.7;
 }
 
-/*--------------------
+/*----------------------------------------
 レスポンシブ
---------------------*/
+----------------------------------------*/
 @media(max-width: 902px){
     .wrapper {
-    max-width: 1000px;
-    padding-inline: 20px;
         padding-block: 80px;
-    margin-inline: auto;
-    border: 1px solid red;
     }
 
     .sec-title {
-    font-size: 2.5rem;
-    text-align: center;
         margin-bottom: 40px;
-    font-family: 'Poor Story', sans-serif;
     }
 
     /*-----header-----*/
@@ -1455,7 +1395,6 @@ textarea {
     /*-----ABOUT-----*/
     .about-container1,
     .about-container2 {
-        /* flex-direction: column; */
         align-items: center;
     }
 
@@ -1536,8 +1475,6 @@ textarea {
 
     .order-text p {
         font-size: 0.875rem;
-    margin-bottom: 25px;
-    /* border: 1px solid red; */
     }
 
     .tell,
@@ -1617,7 +1554,6 @@ textarea {
     .about-img {
         width: 50%;
         height: 200px;
-    position: relative;
     }
 
     .about-text2 {
@@ -1626,27 +1562,8 @@ textarea {
     }
 
     .about-container1::before {
-    content: "";
-    position: absolute;
         top: 10%;
-    right: -8%;
         width: 70%;
-    max-width: 500px;
-    height: 100%;
-
-    /* 擬似要素を視覚化するデバッグ枠 */
-    /* border: 2px dashed red;  /* ← これがデバッグ枠！ */
-    /* background: rgba(0, 255, 0, 0.1); 擬似要素全体を薄い色で塗る */
-    
-    background-image: url("../img/sunny.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    z-index: -1;      /* とりあえず最前面にして見えるか確認！*/
-    opacity: 0;
-    transform: scale(0.7);
-    /* animation: sunFadeIn 1.2s ease-out 0.3s forwards; */
     }
 
     /*-----pickup-----*/
@@ -1688,8 +1605,8 @@ textarea {
     }
 
     .news-container {
-    height: 100px;
-    /* border: 1px solid red; */
+        height: 100px;
+    
     }
 
 
