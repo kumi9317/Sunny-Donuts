@@ -806,8 +806,7 @@ order
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    
+    position: relative; 
 }
 
 #order .wrapper {
@@ -1464,6 +1463,10 @@ textarea {
     }
 
     /*-----order-----*/
+    #order {
+        background-attachment: scroll;
+    }
+    
     #order .wrapper {
         justify-content: center;
     }
@@ -1594,6 +1597,12 @@ textarea {
     /*-----price-----*/
     .price-container {
         flex-direction: column;
+    }
+
+    /*-----order-----*/
+    .order-container {
+        width: 90%;
+        padding: 25px 10px 25px 25px;
     }
 
     /*-----NEWS-----*/
