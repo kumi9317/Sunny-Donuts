@@ -794,8 +794,22 @@ LINE UP
 
 .lineup-text {
     padding-top: 10px;
-    max-width: 250px;
     margin-inline: auto;
+}
+
+.lineup1,
+.lineup4,
+.lineup5 {
+    width: 235px;
+}
+
+.lineup2,
+.lineup6 {
+    width: 250px;
+}
+
+.lineup3 {
+    width: 220px;
 }
 
 /*--------------------
@@ -1597,21 +1611,6 @@ textarea {
     /*-----price-----*/
     .price-container {
         flex-direction: column;
-    }
-
-    /*-----LINE UP-----*/
-    .lineup1,
-    .lineup4,
-    .lineup5 {
-        width: 240px;
-    }
-
-    .lineup2 {
-        width: 250px;
-    }
-
-    .lineup3 {
-        width: 225px;
     }
 
     /*-----order-----*/
