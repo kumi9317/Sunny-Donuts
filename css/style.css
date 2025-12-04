@@ -1606,8 +1606,35 @@ textarea {
 
     .news-container {
         height: 100px;
-    
     }
 
+    /*--------------------
+    orderform
+    --------------------*/
+    .product-row label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .product-row {
+        flex-direction: column;
+    }
+
+    .product-set-container { 
+        width: 100%;
+    } 
+
+    .product-set {
+        width: 100%;
+    }
+
+    /* セレクトボックス */
+    .product-set select {
+        width: 70%;
+    }
+
+    .unit {
+        margin-right: 0;
+    }
 
 }
